@@ -1,10 +1,10 @@
   require 'formula'
 
-class Mm < Formula
-  homepage 'http://github.com/mediamicroservices/mm'
-  url 'https://github.com/mediamicroservices/mm/archive/mm_v2.1.6.zip'
+class NMAAHCmm < Formula
+  homepage 'https://github.com/NMAAHC/NMAAHC_mm'
+  url 'https://github.com/NMAAHC/NMAAHC_mm/archive/v0.0.1.zip'
   sha256 'ab5c01f48fc6f4b71b15cc0849d844735ce06035336ae840709bf842595e7a44'
-  head 'git://github.com/mediamicroservices/mm.git'
+  head 'git://github.com//NMAAHC/NMAAHC_mm.git'
   
   depends_on 'cowsay'
   depends_on 'dvdrtools'
