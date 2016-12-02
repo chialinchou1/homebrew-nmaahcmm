@@ -40,7 +40,6 @@ class NMAAHCmm < Formula
     bin.install "testy"
     bin.install "writemetadata"
     bin.install "writemetadata.sh"
-    bin.install "makemetadata"
   end
   
   def post_install;
