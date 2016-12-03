@@ -1,6 +1,6 @@
   require 'formula'
 
-class NMAAHCmm < Formula
+class Nmaahcmm < Formula
   homepage 'https://github.com/NMAAHC/NMAAHCmm'
   url 'https://github.com/NMAAHC/NMAAHCmm/archive/v0.0.1.zip'
   sha256 'ab5c01f48fc6f4b71b15cc0849d844735ce06035336ae840709bf842595e7a44'
