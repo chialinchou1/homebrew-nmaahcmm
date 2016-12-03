@@ -3,7 +3,7 @@
 class Nmaahcmm < Formula
   homepage 'https://github.com/NMAAHC/NMAAHCmm'
   url 'https://github.com/NMAAHC/NMAAHCmm/archive/v0.0.1.zip'
-  sha256 'ab5c01f48fc6f4b71b15cc0849d844735ce06035336ae840709bf842595e7a44'
+  sha256 '62e1fa9e737a873e184729eea13fb55f45cf4439c9da3511e74e85c48265bd6e'
   head 'git://github.com//NMAAHC/NMAAHCmm.git'
 
   depends_on 'cowsay'
