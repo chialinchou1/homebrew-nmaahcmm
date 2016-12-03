@@ -5,7 +5,7 @@ class NMAAHCmm < Formula
   url 'https://github.com/NMAAHC/NMAAHC_mm/archive/v0.0.1.zip'
   sha256 'ab5c01f48fc6f4b71b15cc0849d844735ce06035336ae840709bf842595e7a44'
   head 'git://github.com//NMAAHC/NMAAHC_mm.git'
-  
+
   depends_on 'cowsay'
   depends_on 'dvdrtools'
   depends_on 'dvdauthor'
@@ -20,7 +20,7 @@ class NMAAHCmm < Formula
   depends_on 'homebrew/dupes/rsync'
   depends_on 'tree'
   depends_on 'xmlstarlet'
-  
+
 
   def install
     bin.install "OptArgTest"
@@ -41,16 +41,16 @@ class NMAAHCmm < Formula
     bin.install "writemetadata"
     bin.install "writemetadata.sh"
   end
-  
+
   def post_install;
       system "updateplist"
   end
-  
+
       def caveats; <<-EOS.undent
     If using the PREMIS DB reporting feature of mm, backup can be controlled via included plist file. Backup only needs to be activated/configured on the DB host computer. Included plist file will run daily backups at 2:00AM if activated.
     EOS
   end
-  
+
   def plist; <<-EOS.undent
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
