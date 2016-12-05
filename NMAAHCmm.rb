@@ -24,7 +24,7 @@ class Nmaahcmm < Formula
 
   def install
     bin.install "OptArgTest"
-    bin.install "bash4test"
+    bin.install "bash4test.sh"
     bin.install "diffFrameMD5"
     bin.install "makeDer"
     bin.install "makechecksum"
