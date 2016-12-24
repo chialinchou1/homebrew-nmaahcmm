@@ -41,3 +41,4 @@ class Nmaahcmm < Formula
     bin.install "writemetadata"
     bin.install "writemetadata.sh"
   end
+end
