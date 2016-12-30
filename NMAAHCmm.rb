@@ -1,26 +1,23 @@
-  require 'formula'
-
 class Nmaahcmm < Formula
-  homepage 'https://github.com/NMAAHC/NMAAHCmm'
-  url 'https://github.com/NMAAHC/NMAAHCmm/archive/v0.0.1.zip'
-  sha256 '62e1fa9e737a873e184729eea13fb55f45cf4439c9da3511e74e85c48265bd6e'
-  head 'https://github.com/NMAAHC/NMAAHCmm.git'
+  homepage "https://github.com/NMAAHC/NMAAHCmm"
+  url "https://github.com/NMAAHC/NMAAHCmm/archive/v0.0.1.tar.gz"
+  sha256 "e281a6d80ffaedbab929e5eaeaed4accdf0ad263c0df39d96e1bfb26cbace0cc"
+  head "https://github.com/NMAAHC/NMAAHCmm.git"
 
-  depends_on 'cowsay'
-  depends_on 'dvdrtools'
-  depends_on 'dvdauthor'
-  depends_on 'exiftool'
-  depends_on 'sdl'
-  depends_on 'ffmpeg' => [ 'with-sdl2', 'with-freetype' ]
-  depends_on 'flac'
-  depends_on 'md5deep'
-  depends_on 'mediaconch'
-  depends_on 'mediainfo'
-  depends_on 'normalize'
-  depends_on 'homebrew/dupes/rsync'
-  depends_on 'tree'
-  depends_on 'xmlstarlet'
-
+  depends_on "cowsay"
+  depends_on "dvdrtools"
+  depends_on "dvdauthor"
+  depends_on "exiftool"
+  depends_on "sdl"
+  depends_on "ffmpeg" => ["with-sdl2", "with-freetype"]
+  depends_on "flac"
+  depends_on "md5deep"
+  depends_on "mediaconch"
+  depends_on "media-info"
+  depends_on "normalize"
+  depends_on "homebrew/dupes/rsync"
+  depends_on "tree"
+  depends_on "xmlstarlet"
 
   def install
     bin.install "OptArgTest"
