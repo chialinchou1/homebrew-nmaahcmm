@@ -20,9 +20,6 @@ class Nmaahcmm < Formula
   depends_on "xmlstarlet"
 
   def install
-    bin.install "OptArgTest"
-    bin.install "bash4test.sh"
-    bin.install "bashrc"
     bin.install "diffFrameMD5"
     bin.install "makechecksum"
     bin.install "makeDer"
@@ -30,16 +27,8 @@ class Nmaahcmm < Formula
     bin.install "makeframemd5"
     bin.install "makeH264"
     bin.install "moveDPX"
-    bin.install "my.sh"
-    bin.install "myTest.sh"
-    bin.install "rename.sh"
     bin.install "restructure"
     bin.install "restructureDer"
-    bin.install "temp"
-    bin.install "temp.sh"
-    bin.install "test"
-    bin.install "testy"
     bin.install "writemetadata"
-    bin.install "writemetadata.sh"
   end
 end
