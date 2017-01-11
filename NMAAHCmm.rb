@@ -21,6 +21,7 @@ class Nmaahcmm < Formula
 
   def install
     bin.install "diffFrameMD5"
+    bin.install "dpxdirectorystructure"
     bin.install "makechecksum"
     bin.install "makeDer"
     bin.install "makedrivetree"
