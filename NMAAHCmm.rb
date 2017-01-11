@@ -21,7 +21,6 @@ class Nmaahcmm < Formula
 
   def install
     bin.install "diffFrameMD5"
-    bin.install "dpxdirectorystructure"
     bin.install "makechecksum"
     bin.install "makeDer"
     bin.install "makedrivetree"
@@ -29,7 +28,8 @@ class Nmaahcmm < Formula
     bin.install "makeH264"
     bin.install "moveDPX"
     bin.install "restructure"
-    bin.install "restructureDer"
+    bin.install "restructureDER"
+    bin.install "restructureDPX"
     bin.install "writemetadata"
   end
 end
