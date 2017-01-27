@@ -27,6 +27,7 @@ class Nmaahcmm < Formula
     bin.install "makeframemd5"
     bin.install "makeH264"
     bin.install "moveDPX"
+    bin.install "nmaahcmmfunctions"
     bin.install "restructure"
     bin.install "restructureDER"
     bin.install "restructureDPX"
