@@ -26,6 +26,7 @@ class Nmaahcmm < Formula
     bin.install "makedrivetree"
     bin.install "makeframemd5"
     bin.install "makeH264"
+    bin.install "makeLTOtree"
     bin.install "moveDPX"
     bin.install "nmaahcmmfunctions"
     bin.install "restructure"
