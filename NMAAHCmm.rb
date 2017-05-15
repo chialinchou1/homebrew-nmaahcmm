@@ -32,6 +32,7 @@ class Nmaahcmm < Formula
     bin.install "restructure"
     bin.install "restructureDER"
     bin.install "restructureDPX"
+    bin.install "restructureForVFCU"
     bin.install "writemetadata"
   end
 end
