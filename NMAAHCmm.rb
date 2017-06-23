@@ -29,6 +29,7 @@ class Nmaahcmm < Formula
     bin.install "makeLTOtree"
     bin.install "moveDPX"
     bin.install "nmaahcmmfunctions"
+    bin.install "prepareLTO"
     bin.install "restructure"
     bin.install "restructureDER"
     bin.install "restructureDPX"
