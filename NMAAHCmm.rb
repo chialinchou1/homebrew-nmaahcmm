@@ -15,7 +15,7 @@ class Nmaahcmm < Formula
   depends_on "mediaconch"
   depends_on "media-info"
   depends_on "normalize"
-  depends_on "homebrew/dupes/rsync"
+  depends_on "rsync"
   depends_on "tree"
   depends_on "xmlstarlet"
 
