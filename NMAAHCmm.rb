@@ -21,6 +21,7 @@ class Nmaahcmm < Formula
 
   def install
     bin.install ".bashrc"
+    bin.install "makeconcat"
     bin.install "diffFrameMD5"
     bin.install "makechecksum"
     bin.install "makeDer"
