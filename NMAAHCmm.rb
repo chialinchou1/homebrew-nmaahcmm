@@ -20,7 +20,6 @@ class Nmaahcmm < Formula
   depends_on "xmlstarlet"
 
   def install
-    bin.install "bashrc"
     bin.install "makeconcat"
     bin.install "diffFrameMD5"
     bin.install "gmconfig"
