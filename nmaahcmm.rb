@@ -20,22 +20,19 @@ class Nmaahcmm < Formula
   depends_on "tree"
   depends_on "xmlstarlet"
 
-  def install
+def install
     bin.install "bashrc"
     bin.install "makeconcat"
     bin.install "diffFrameMD5"
-    bin.install "gmconfig"
     bin.install "makechecksum"
     bin.install "makeDer"
     bin.install "makedrivetree"
     bin.install "makeframemd5"
     bin.install "makegm"
     bin.install "makeH264"
-    bin.install "makeLTOtree"
     bin.install "moveDPX"
     bin.install "nmaahcmmfunctions"
     bin.install "prepareLTO"
-    bin.install "re-prepareLTO"
     bin.install "restructure"
     bin.install "restructureDER"
     bin.install "restructureDPX"
