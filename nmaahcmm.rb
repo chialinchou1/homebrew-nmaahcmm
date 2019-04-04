@@ -2,7 +2,7 @@ class Nmaahcmm < Formula
   desc "scripts for running NMAAHC microservices"
   homepage "https://github.com/NMAAHC/nmaahcmm"
   url "https://github.com/NMAAHC/nmaahcmm/archive/v0.0.2.tar.gz"
-  sha256 "7306d1efd4f43c91ff21a8160e35c9423e06bcf7573daf2fb514417353d4b600"
+  sha256 "cca3b9417bc4fb854f5da794e1b64916b67c2e5856d578913e991d0de88c2927"
   head "https://github.com/NMAAHC/nmaahcmm.git"
 
   depends_on "cowsay"
