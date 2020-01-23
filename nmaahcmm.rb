@@ -35,7 +35,6 @@ def install
     bin.install "makeframemd5"
     bin.install "makegm"
     bin.install "makemetadata"
-    bin.install "makeH264"
     bin.install "moveDPX"
     bin.install "nmaahcmmfunctions"
     bin.install "removeDSStore"
