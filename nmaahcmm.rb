@@ -1,8 +1,8 @@
 class Nmaahcmm < Formula
   desc "scripts for running NMAAHC microservices"
   homepage "https://github.com/NMAAHC/nmaahcmm"
-  url "https://github.com/NMAAHC/nmaahcmm/archive/v0.0.2.tar.gz"
-  sha256 "cca3b9417bc4fb854f5da794e1b64916b67c2e5856d578913e991d0de88c2927"
+  url "https://github.com/NMAAHC/nmaahcmm/archive/v0.0.3.tar.gz"
+  sha256 "cf51b0db5c2a6db6051cec42dbe67913a11989a31b9d1bf2a1f2ffd811c54f60"
   head "https://github.com/NMAAHC/nmaahcmm.git"
 
   depends_on "cowsay"
@@ -22,19 +22,26 @@ class Nmaahcmm < Formula
 
 def install
     bin.install "bashrc"
-    bin.install "makeconcat"
     bin.install "diffFrameMD5"
-    bin.install "makechecksum"
+    bin.install "getduration"
+    bin.install "gm.conf"
+    bin.install "gmconfig"
+    bin.install "ingestfile"
     bin.install "makeDer"
+    bin.install "makeH264"
+    bin.install "makechecksum"
+    bin.install "makeconcat"
     bin.install "makedrivetree"
     bin.install "makeframemd5"
+    bin.install "makegm"
+    bin.install "makemetadata"
     bin.install "makeH264"
     bin.install "moveDPX"
     bin.install "nmaahcmmfunctions"
-    bin.install "restructure"
-    bin.install "restructureDER"
+    bin.install "removeDSStore"
     bin.install "restructureDPX"
     bin.install "restructureForVFCU"
-    bin.install "writemetadata"
+    bin.install "restructureSIP"
+    bin.install "verifySIP"
   end
 end
