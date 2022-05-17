@@ -15,7 +15,7 @@ class Nmaahcmm < Formula
   depends_on "tree"
   depends_on "xmlstarlet"
 
-def install
+  def install
     bin.install "camera_cards"
     bin.install "diffFrameMD5"
     bin.install "getduration"
