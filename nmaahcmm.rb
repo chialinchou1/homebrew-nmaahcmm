@@ -1,26 +1,22 @@
 class Nmaahcmm < Formula
-  desc "scripts for running NMAAHC microservices"
+  desc "Scripts for running NMAAHC microservices"
   homepage "https://github.com/NMAAHC/nmaahcmm"
   url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.4.tar.gz"
   sha256 "562367a73dd6c636d90b45fd59742a35a66deb1c8c329a6d55f9d51485ae2eda"
+  head "https://github.com/NMAAHC/nmaahcmm.git"
   license ""
 
   depends_on "cowsay"
-  depends_on "dvdauthor"
-  depends_on "dvdrtools"
   depends_on "exiftool"
-  depends_on "ffmpeg" => ["with-sdl2", "with-freetype"]
-  depends_on "flac"
+  depends_on "ffmpeg"
   depends_on "md5deep"
   depends_on "media-info"
   depends_on "mediaconch"
-  depends_on "normalize"
   depends_on "rsync"
-  depends_on "sdl"
   depends_on "tree"
   depends_on "xmlstarlet"
 
-def install
+  def install
     bin.install "camera_cards"
     bin.install "diffFrameMD5"
     bin.install "getduration"
