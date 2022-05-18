@@ -5,6 +5,7 @@ class Nmaahcmm < Formula
   sha256 "562367a73dd6c636d90b45fd59742a35a66deb1c8c329a6d55f9d51485ae2eda"
   head "https://github.com/NMAAHC/nmaahcmm.git"
   license ""
+  revision 1
 
   depends_on "cowsay"
   depends_on "exiftool"
@@ -32,7 +33,6 @@ class Nmaahcmm < Formula
     bin.install "makeH264"
     bin.install "makemetadata"
     bin.install "moveDPX"
-    bin.install "nmaahcmm.conf"
     bin.install "nmaahcmmconfig"
     bin.install "nmaahcmmfunctions"
     bin.install "removeDSStore"
