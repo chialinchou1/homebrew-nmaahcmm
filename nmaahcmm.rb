@@ -1,8 +1,8 @@
 class Nmaahcmm < Formula
   desc "Scripts for running NMAAHC microservices"
   homepage "https://github.com/NMAAHC/nmaahcmm"
-  url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.4.tar.gz"
-  sha256 "562367a73dd6c636d90b45fd59742a35a66deb1c8c329a6d55f9d51485ae2eda"
+  url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.5.tar.gz"
+  sha256 "08ac49f349fc5ce1cee6a47513cabfa7f660f88466f9cfe224c678d01d624285"
   head "https://github.com/NMAAHC/nmaahcmm.git"
   license ""
 
