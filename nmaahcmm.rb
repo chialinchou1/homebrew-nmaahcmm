@@ -31,6 +31,7 @@ class Nmaahcmm < Formula
     bin.install "makeframemd5"
     bin.install "makegm"
     bin.install "makeH264"
+    bin.install "makemediainfo"
     bin.install "makemetadata"
     bin.install "moveDPX"
     bin.install "nmaahcmmconfig"
