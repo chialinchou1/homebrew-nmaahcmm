@@ -4,6 +4,7 @@ class Nmaahcmm < Formula
   url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.5.tar.gz"
   sha256 "08ac49f349fc5ce1cee6a47513cabfa7f660f88466f9cfe224c678d01d624285"
   head "https://github.com/NMAAHC/nmaahcmm.git"
+  revision 1
   license ""
 
   depends_on "cowsay"
@@ -12,6 +13,7 @@ class Nmaahcmm < Formula
   depends_on "md5deep"
   depends_on "media-info"
   depends_on "mediaconch"
+  depends_on "mkvtoolnix"
   depends_on "rsync"
   depends_on "tree"
   depends_on "xmlstarlet"
