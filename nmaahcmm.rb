@@ -1,8 +1,8 @@
 class Nmaahcmm < Formula
   desc "Scripts for running NMAAHC microservices"
   homepage "https://github.com/NMAAHC/nmaahcmm"
-  url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.6.tar.gz"
-  sha256 "1df0c7ec0bed8128a70127e3bb86685af6f7d0f0a8715805eab9973873d58bf5"
+  url "https://github.com/NMAAHC/nmaahcmm/archive/refs/tags/nmaahcmm-v0.0.7.tar.gz"
+  sha256 "8dedea849e0b0ff30319ad574c2114e36e53bd93ba0a715be3e48257cabfc0a9"
   head "https://github.com/NMAAHC/nmaahcmm.git"
   license ""
 
@@ -37,6 +37,7 @@ class Nmaahcmm < Formula
     bin.install "nmaahcmmconfig"
     bin.install "nmaahcmmfunctions"
     bin.install "removeDSStore"
+    bin.install "rename"
     bin.install "restructureDPX"
     bin.install "restructureForVFCU"
     bin.install "restructureSIP"
